@@ -6,7 +6,7 @@
 /*   By: aklaikel <aklaikel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 00:58:23 by aklaikel          #+#    #+#             */
-/*   Updated: 2021/11/30 21:05:28 by aklaikel         ###   ########.fr       */
+/*   Updated: 2021/11/30 21:27:18 by aklaikel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,10 +60,10 @@ int	ft_printf(const char *f, ...)
 	va_end(ptr);
 	return (len);
 }
-#include<stdio.h>
-int main ()
-{
-	int p1 = ft_printf("%X\n", 2002);
-	int	p2 = printf("%X\n",2002);
- 	printf("%d == %d\n",p1, p2);
- }
+// #include<stdio.h>
+// int main ()
+// {
+// 	int p1 = ft_printf("%X\n", 2002);
+// 	int	p2 = printf("%X\n",2002);
+//  	printf("%d == %d\n",p1, p2);
+//  }
